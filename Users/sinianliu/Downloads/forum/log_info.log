@@ -1,0 +1,175 @@
+2023-06-01 16:26:01,667 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:51] Starting ForumApplication using Java 19.0.2 with PID 36741 (/Users/sinianliu/Desktop/forum/target/classes started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:26:01,668 INFO [restartedMain] c.s.f.ForumApplication [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:26:01,838 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:26:01,840 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:26:01,976 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 1234 (http)
+2023-06-01 16:26:01,977 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-01 16:26:01,977 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-01 16:26:01,997 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-01 16:26:01,997 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 327 ms
+2023-06-01 16:26:02,040 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-6 - Starting...
+2023-06-01 16:26:02,047 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dd2241
+2023-06-01 16:26:02,048 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-6 - Start completed.
+2023-06-01 16:26:02,049 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:26:02,054 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:26:02,055 INFO [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:26:02,058 INFO [restartedMain] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:26:02,062 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:26:02,067 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:26:02,068 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:26:02,201 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:26:02,257 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-06-01 16:26:02,265 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 1234 (http) with context path '/forum'
+2023-06-01 16:26:02,269 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:57] Started ForumApplication in 0.712 seconds (process running for 5386.641)
+2023-06-01 16:26:02,271 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2023-06-01 16:26:02,570 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:51] Starting LoggerTests using Java 19.0.2 with PID 38242 (started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:26:02,572 INFO [main] c.s.f.LoggerTests [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:26:03,137 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:26:03,148 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:26:03,429 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-01 16:26:03,569 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a17b2e3
+2023-06-01 16:26:03,571 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-01 16:26:03,603 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:26:03,635 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-01 16:26:03,637 INFO [main] o.h.c.Environment [Environment.java:191] HHH000406: Using bytecode reflection optimizer
+2023-06-01 16:26:03,733 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:26:03,827 INFO [main] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:26:03,880 INFO [main] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:26:03,933 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:26:04,079 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:26:04,083 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:26:04,512 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:26:04,670 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:57] Started LoggerTests in 2.785 seconds (process running for 3.73)
+2023-06-01 16:26:05,113 INFO [main] c.s.f.LoggerTests [LoggerTests.java:22] info log
+2023-06-01 16:26:05,120 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:26:05,122 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-01 16:26:05,128 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-01 16:28:00,623 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-01 16:28:00,626 INFO [Thread-23] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-06-01 16:28:00,630 INFO [Thread-23] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:28:00,631 INFO [Thread-23] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-6 - Shutdown initiated...
+2023-06-01 16:28:00,633 INFO [Thread-23] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-6 - Shutdown completed.
+2023-06-01 16:28:00,713 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:51] Starting ForumApplication using Java 19.0.2 with PID 36741 (/Users/sinianliu/Desktop/forum/target/classes started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:28:00,714 INFO [restartedMain] c.s.f.ForumApplication [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:28:00,823 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:28:00,825 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:28:00,887 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 1234 (http)
+2023-06-01 16:28:00,888 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-01 16:28:00,888 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-01 16:28:00,902 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-01 16:28:00,903 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 188 ms
+2023-06-01 16:28:00,929 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-7 - Starting...
+2023-06-01 16:28:00,935 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c6f0ed
+2023-06-01 16:28:00,936 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-7 - Start completed.
+2023-06-01 16:28:00,939 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:28:00,943 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:28:00,945 INFO [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:28:00,947 INFO [restartedMain] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:28:00,949 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:28:00,953 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:28:00,954 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:28:01,037 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:28:01,096 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-06-01 16:28:01,102 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 1234 (http) with context path '/forum'
+2023-06-01 16:28:01,106 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:57] Started ForumApplication in 0.423 seconds (process running for 5505.487)
+2023-06-01 16:28:01,107 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2023-06-01 16:28:01,428 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:51] Starting LoggerTests using Java 19.0.2 with PID 38301 (started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:28:01,430 INFO [main] c.s.f.LoggerTests [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:28:02,055 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:28:02,066 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:28:02,347 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-01 16:28:02,470 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6723610b
+2023-06-01 16:28:02,471 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-01 16:28:02,499 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:28:02,526 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-01 16:28:02,528 INFO [main] o.h.c.Environment [Environment.java:191] HHH000406: Using bytecode reflection optimizer
+2023-06-01 16:28:02,618 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:28:02,709 INFO [main] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:28:02,758 INFO [main] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:28:02,808 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:28:02,947 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:28:02,950 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:28:03,301 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:28:03,456 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:57] Started LoggerTests in 2.54 seconds (process running for 3.365)
+2023-06-01 16:28:03,918 INFO [main] c.s.f.LoggerTests [LoggerTests.java:22] info log
+2023-06-01 16:28:03,926 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:28:03,928 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-01 16:28:03,934 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-01 16:33:27,231 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:51] Starting LoggerTests using Java 19.0.2 with PID 38414 (started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:33:27,235 INFO [main] c.s.f.LoggerTests [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:33:27,722 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:33:27,733 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:33:28,012 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-01 16:33:28,136 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a17b2e3
+2023-06-01 16:33:28,137 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-01 16:33:28,166 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:33:28,194 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-01 16:33:28,196 INFO [main] o.h.c.Environment [Environment.java:191] HHH000406: Using bytecode reflection optimizer
+2023-06-01 16:33:28,285 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:33:28,374 INFO [main] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:33:28,423 INFO [main] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:33:28,474 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:33:28,624 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:33:28,628 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:33:28,990 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:33:29,151 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:57] Started LoggerTests in 2.323 seconds (process running for 3.169)
+2023-06-01 16:33:29,697 INFO [main] c.s.f.LoggerTests [LoggerTests.java:22] info log
+2023-06-01 16:33:29,705 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:33:29,706 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-01 16:33:29,713 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-01 16:34:33,615 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (1 addition, 1 deletion, 1 modification)
+2023-06-01 16:34:33,621 INFO [Thread-27] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-06-01 16:34:33,627 INFO [Thread-27] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:34:33,628 INFO [Thread-27] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-7 - Shutdown initiated...
+2023-06-01 16:34:33,629 INFO [Thread-27] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-7 - Shutdown completed.
+2023-06-01 16:34:33,723 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:51] Starting ForumApplication using Java 19.0.2 with PID 36741 (/Users/sinianliu/Desktop/forum/target/classes started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:34:33,723 INFO [restartedMain] c.s.f.ForumApplication [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:34:33,831 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:34:33,833 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:34:33,852 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:51] Starting LoggerTests using Java 19.0.2 with PID 38432 (started by sinianliu in /Users/sinianliu/Desktop/forum)
+2023-06-01 16:34:33,855 INFO [main] c.s.f.LoggerTests [SpringApplication.java:633] No active profile set, falling back to 1 default profile: "default"
+2023-06-01 16:34:33,896 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:108] Tomcat initialized with port(s): 1234 (http)
+2023-06-01 16:34:33,897 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2023-06-01 16:34:33,897 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-01 16:34:33,910 INFO [restartedMain] o.a.c.c.C.[.[.[/forum] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2023-06-01 16:34:33,910 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 185 ms
+2023-06-01 16:34:33,931 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-8 - Starting...
+2023-06-01 16:34:33,935 INFO [restartedMain] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48748176
+2023-06-01 16:34:33,936 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-8 - Start completed.
+2023-06-01 16:34:33,937 INFO [restartedMain] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:34:33,940 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:34:33,941 INFO [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:34:33,943 INFO [restartedMain] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:34:33,945 INFO [restartedMain] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:34:33,948 INFO [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:34:33,949 INFO [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:34:34,028 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:34:34,084 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2023-06-01 16:34:34,089 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:220] Tomcat started on port(s): 1234 (http) with context path '/forum'
+2023-06-01 16:34:34,092 INFO [restartedMain] c.s.f.ForumApplication [StartupInfoLogger.java:57] Started ForumApplication in 0.401 seconds (process running for 5898.49)
+2023-06-01 16:34:34,094 INFO [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [ConditionEvaluationDeltaLoggingListener.java:63] Condition evaluation unchanged
+2023-06-01 16:34:34,470 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:138] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-01 16:34:34,481 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:208] Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-06-01 16:34:34,818 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2023-06-01 16:34:34,983 INFO [main] c.z.h.p.HikariPool [HikariPool.java:565] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dab1f89
+2023-06-01 16:34:34,986 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2023-06-01 16:34:35,045 INFO [main] o.h.j.i.u.LogHelper [LogHelper.java:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-01 16:34:35,090 INFO [main] o.h.Version [Version.java:44] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-01 16:34:35,093 INFO [main] o.h.c.Environment [Environment.java:191] HHH000406: Using bytecode reflection optimizer
+2023-06-01 16:34:35,242 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:34:35,369 INFO [main] o.s.o.j.p.SpringPersistenceUnitInfo [SpringPersistenceUnitInfo.java:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-01 16:34:35,422 INFO [main] o.h.o.dialect [DialectFactoryImpl.java:93] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-06-01 16:34:35,473 INFO [main] o.h.b.i.BytecodeProviderInitiator [BytecodeProviderInitiator.java:53] HHH000021: Bytecode provider name : bytebuddy
+2023-06-01 16:34:35,603 INFO [main] o.h.e.t.j.p.i.JtaPlatformInitiator [JtaPlatformInitiator.java:51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-01 16:34:35,605 INFO [main] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:34:35,913 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:57] Adding welcome page template: index
+2023-06-01 16:34:36,064 INFO [main] c.s.f.LoggerTests [StartupInfoLogger.java:57] Started LoggerTests in 2.507 seconds (process running for 3.416)
+2023-06-01 16:34:36,536 INFO [main] c.s.f.LoggerTests [LoggerTests.java:22] info log
+2023-06-01 16:34:36,544 INFO [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:34:36,545 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2023-06-01 16:34:36,551 INFO [SpringApplicationShutdownHook] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2023-06-01 16:37:11,527 INFO [File Watcher] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [LocalDevToolsAutoConfiguration.java:211] Restarting due to 3 class path changes (1 addition, 1 deletion, 1 modification)
+2023-06-01 16:37:11,533 INFO [Thread-31] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2023-06-01 16:37:11,537 INFO [Thread-31] o.s.o.j.LocalContainerEntityManagerFactoryBean [AbstractEntityManagerFactoryBean.java:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-01 16:37:11,537 INFO [Thread-31] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-8 - Shutdown initiated...
+2023-06-01 16:37:11,538 INFO [Thread-31] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-8 - Shutdown completed.
